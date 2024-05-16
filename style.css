@@ -106,3 +106,22 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and(min-width: 768px) {
+  main {
+    width: 505;
+  }
+  .name {
+    width: 80%;
+  }
+
+  .location {
+    width: 80%;
+  }
+
+  .profile {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
