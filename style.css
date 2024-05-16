@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  border: 2rem;
+  background-color: hsl(0, 0%, 8%);
+  font-style: normal;
+  font-family: "inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.main {
+  width: 25%;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 0.7rem;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+}
+
+.logo {
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+
+.logo img {
+  padding: 1.5rem;
+  border-radius: 5rem;
+  box-sizing: border-box;
+  width: 30%;
+}
+
+.name {
+  padding: 0;
+  letter-spacing: normal;
+}
+
+.name h1 {
+  font-family: "inter" sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.location p {
+  color: hsl(75, 94%, 57%);
+  padding: auto;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p {
+  padding: 1rem;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-weight: 400;
+}
+
+.profile {
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.profile > div {
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.profile:last-child {
+  padding: 1rem;
+}
+
+.profile > div:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.profile > div > a {
+  font-weight: 600;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.github {
+  background-color: var(--grey);
+}
+
+.attribution {
+  padding: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
