@@ -69,6 +69,7 @@ p {
   width: 80%;
   margin: auto;
   margin-top: 30px;
+  flex-wrap: nowrap;
 }
 
 .profile > div {
